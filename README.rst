@@ -10,4 +10,4 @@ Includes:
 - ``requirements.txt``
 - Ready for use with Black, with Flake8 config to suit
 - Hound (``.hound.yml``)
-- ``pyproject.toml, with Black-compatible isort config
+- ``pyproject.toml``, with Black-compatible isort config
