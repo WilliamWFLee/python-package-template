@@ -6,7 +6,7 @@ A template repo for Python development
 Includes: 
 
 - This ``README.rst``
-- ``.gitignore`` for Python
+- ``.gitignore`` for Python, ignoring VS Code and IntelliJ IDEA project-specific config directories
 - ``requirements.txt``
 - Ready for use with Black, with Flake8 config to suit
 - Hound (``.hound.yml``)
