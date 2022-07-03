@@ -3,7 +3,12 @@
 max-line-length = 88
 ignore = E203, W503
 per-file-ignores = 
-    */__init__.py:F401
+    # Uncomment to ignore to imports in the top-level module
+    # intended to expose imports from a lower-level.
+    # 
+    # Replace <package name> with the name of your package directory.
+    #
+    # src/<package name>/__init__.py:F401
 exclude =
     .git
     venv
