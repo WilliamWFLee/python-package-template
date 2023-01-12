@@ -1,7 +1,7 @@
-python-template
-===============
+python-package-template
+=======================
 
-A GitHub repository template for `PEP 517`_-compliant Python projects, with ``install_requires`` written in ``requirements.txt`` and loaded programmatically via ``setup.py`` rather than ``setup.cfg``.
+A GitHub repository template for `PEP 517`_-compliant Python packages, with ``install_requires`` written in ``requirements.txt`` and loaded programmatically via ``setup.py`` rather than ``setup.cfg``.
 
 Also includes configuration for various tools, including:
 
@@ -10,7 +10,7 @@ Also includes configuration for various tools, including:
 - `isort`_
 - `Hound`_
 
-isort is configured to produce Black-compatible code import formatting, and Flake8 is configured to be suitable for Black.
+isort and flake8 are configured to be compatible with Black formatting standards.
 
 The ``.gitignore`` is configured for Python, based on the ``.gitignore`` `template on GitHub <https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore>`__, plus additional rules ignoring VS Code and IntelliJ IDEA project-specific configuration directories.
 
